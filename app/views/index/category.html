@@ -1,0 +1,43 @@
+{include file="index/header.html"}
+<link rel="stylesheet" href="{CSS_PATH}/fenlei.css">
+<body>
+<main id="fenlei">
+    <!-- 搜索框开始 -->
+    <section id="search">
+        <h1>&#xe62f;</h1>
+        <input type="text" class="sousuo" placeholder="&#xe69b;飞利浦剃须刀">
+        <h1>&#xe6cd;</h1>
+    </section>
+    <!-- 搜索框结束 -->
+    <!-- 正文内容开始 -->
+    <section id="content">
+        <div class="content_left">
+            <div class="tuijian_wenzi">
+                {foreach $cats $v}
+                {if $cid==$v['cid']}
+                <h1 data-id="{$v['cid']}" style="color:red">{$v['cname']}</h1>
+                {else}
+                <h1 data-id="{$v['cid']}">{$v['cname']}</h1>
+                {/if}
+                {/foreach}
+            </div>
+        </div>
+
+        <div class="content_right">
+            <div class="remen">
+                <h1 class="">详细分类</h1>
+            </div>
+            <div class="remen_neirong">
+                {foreach $types $v}
+                <a href="index.php?m=index&c=category&a=showlist&tid={$v['tid']}" class="remen_neirong_item">
+                    <img src="{$v['tthumb']}" alt="">
+                    <h1>{$v['tname']}</h1>
+                </a>
+                {/foreach}
+            </div>
+        </div>
+    </section>
+</main>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/gettype.js"></script>
+{include file="index/footer.html"}

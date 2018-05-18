@@ -1,0 +1,65 @@
+{include file="admin/header.html"}
+<style>
+    td>img{
+        width:50px;
+        height:50px;
+        border-radius:50%;
+    }
+</style>
+<body>
+<form method="post" action="" id="listform">
+    <div class="panel admin-panel">
+        <div class="panel-head"><strong class="icon-reorder"> 商品列表</strong>
+        </div>
+        <div class="padding border-bottom">
+            <ul class="search" style="padding-left:10px;">
+                <li><a class="button border-main icon-plus-square-o" href="index.php?m=admin&c=goods&a=addgoods"> 添加商品</a></li>
+            </ul>
+        </div>
+        <table class="table table-hover text-center">
+            <tr>
+                <th>id</th>
+                <th width="15%">商品名</th>
+                <th>缩略图</th>
+                <th>多图片</th>
+                <th>价格</th>
+                <th>描述</th>
+                <th>所属分类</th>
+                <th>是否推荐</th>
+                <th>排序</th>
+                <th>操作</th>
+            </tr>
+            {foreach $data $v}
+            <tr>
+                <td>{$v['gid']}</td>
+                <td>{$v['gname']}</td>
+                <td><img src="{$v['gthumb']}"></td>
+                <td>
+                    {foreach $v['gpictures'] $src}
+                      <img src="{$src}" alt="">
+                    {/foreach}
+                </td>
+                <td>{$v['gprice']}</td>
+                <td>{$v['gdescription']}</td>
+                <td>{$v['tname']}</td>
+                <td>{$v['grecommend']}</td>
+                <td>{$v['gorder']}</td>
+                <td>
+                    <div class="button-group"><a class="button border-main" href="index.php?m=admin&c=goods&a=updategoods&id={$v['gid']}"><span
+                            class="icon-edit"></span>修改</a>
+                        <a class="button border-red" href="index.php?m=admin&c=goods&a=delgoods&id={$v['gid']}"><span class="icon-trash-o"></span> 删除</a></div>
+                </td>
+            </tr>
+            {/foreach}
+            <tr>
+                <td colspan="10">
+                    <div class="pagelist">
+                        {$str}
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+</body>
+</html>

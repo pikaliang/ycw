@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="{CSS_PATH}/index1.css">
+	<link rel="stylesheet" href="{CSS_PATH}/public.css">
+	<link rel="stylesheet" href="{CSS_PATH}/class.css">
+	<link rel="stylesheet" href="{CSS_PATH}/zhuce.css">
+	<script src="{JS_PATH}/rem.js"></script>
+	<title>登 录</title>
+	<!-- viewport视口  -->
+</head>
+<body>
+<!-- 头部开始 -->
+<div class="header header1">
+	<div class="jiantou">
+		<a href="" onclick="history.back()">&lt;</a>
+	</div>
+	<div class="header2">
+		<h1 class="love_life">登 录</h1>
+	</div>
+</div>
+{include file="index/notice.html"}
+<form action="index.php?m=index&c=personal&a=checklogin" method="post" id="myform">
+	<div class="second_top">
+		<div class="second_top_item">
+			<h1>
+				<span>&#xe693;</span>
+				<span>手机登录</span>
+			</h1>
+			<div class="second_top_line"></div>
+		</div>
+	</div>
+	<div class="phone">
+		<h1>手机号:</h1>
+		<input type="text" placeholder="请输入手机号" name="phone" >
+	</div>
+	<div class="phone">
+		<h1>密 码:</h1>
+		<input type="password" name="password" placeholder="请输入密码">
+	</div>
+	<input type="submit" class="next" value="登 录">
+</form>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/reg.js"></script>
+</body>
+</html>

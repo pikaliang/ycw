@@ -1,0 +1,46 @@
+{include file="index/header.html"}
+<link rel="stylesheet" href="{CSS_PATH}/main.css">
+<body>
+		<!-- 搜索框开始 -->
+		<section id="search">
+			<h1>&#xe62f;</h1>
+			<input type="text" class="sousuo" placeholder="&#xe69b;飞利浦剃须刀">				
+			<h1>&#xe6cd;</h1>
+			
+		</section>
+		<!-- 搜索框结束 -->
+		<section id="zong">
+			<section id="banner">
+				<img src="{IMG_PATH}/b1.jpg" alt="">
+			</section>
+			<section id="leixing">
+				{foreach $data $v}
+				<div class="wodefuwu_item">
+					<a href="index.php?m=index&c=category&a=showcategory&cid={$v['cid']}" class="wode_yuan wode_yuan10">
+						<img src="{$v['cthumb']}" alt="">
+					</a>
+					<h1>{$v['cname']}</h1>
+				</div>
+                {/foreach}
+			</section>
+			<section id="tuijian">
+				<div class="tuijian_top">
+					<h1>为你推荐</h1>
+				</div>
+				<div class="tuijian_item">
+					{foreach $gdata $v}
+					<a href="index.php?m=index&c=category&a=showcontent&gid={$v['gid']}" class="tuijian_item_up">
+						<div class="tuijian_item_left">
+							<img src="{$v['gthumb']}" alt="">
+						</div>
+						<div class="tuijian_item_left">
+							<h1>{$v['gname']}</h1>
+							<h2>{$v['gdescription']}</h2>
+							<h4>¥{$v['gprice']}</h4>
+						</div>
+					</a>
+					{/foreach}
+				</div>
+			</section>	
+		</section>
+{include file="index/footer.html"}

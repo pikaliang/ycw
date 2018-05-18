@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 562915 */
+  src: url('https://at.alicdn.com/t/font_562915_zwmqcaucwzy3nmi.eot');
+  src: url('https://at.alicdn.com/t/font_562915_zwmqcaucwzy3nmi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_562915_zwmqcaucwzy3nmi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_562915_zwmqcaucwzy3nmi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_562915_zwmqcaucwzy3nmi.svg#iconfont') format('svg');
+}
+body{
+	font-size: 12px;
+	background-color: #f5f5f5;
+}
+#top{
+	width: 100%;
+	height: 1.34rem;
+	background-color: #fff;
+	padding: 0 0.24rem;
+	line-height: 1.34rem;
+	text-align: center;
+	border-bottom: 0.01rem solid #dedede;
+	position: fixed;
+	z-index: 999;
+}
+#top h1{
+	font-weight: normal;
+	font-size: 0.57rem;
+}
+.top_right{
+	width: 2rem;
+	height: 0.6rem;
+	/* background-color: red; */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 0.44rem;
+
+}
+.top_right h2{
+	line-height: 0.6rem;
+	font-size: 0.5rem;
+	font-weight: normal;
+	float: left;
+	color: #6f6f6f;
+}
+.top_right h3{
+	line-height: 0.7rem;
+	font-size: 0.7rem;
+	font-weight: normal;
+	float: right;
+	font-family: 'iconfont';
+}
+#content{
+	width: 100%;
+	height: auto;
+	float: left;
+	position: absolute;
+	top: 1.34rem;
+	bottom: 2.95rem;
+	overflow-y: scroll;
+}
+.content_item{
+	height: 6.03rem;
+	width: 100%;
+	background-color: #fff;
+	margin-top: 0.3rem;
+}
+.content_item_top{
+	height: 1.2rem;
+	width: 100%;
+	border-bottom: 0.01rem solid #dbdbdb;
+} 
+.yuan{
+	width: 0.6rem;
+	height: 0.6rem;
+	background-color: #000;
+	border-radius: 50%;
+	float: left;
+	margin-top: 0.3rem;
+	margin-left: 0.3rem;
+	color: #fff;
+	font-family: 'iconfont';
+	text-align: center;
+	line-height: 0.6rem;
+	font-weight: 900;
+}
+.content_item_top h1{
+	margin-top: 0.3rem;
+	float: left;
+	font-family: 'iconfont';
+	line-height: 0.6rem;
+	margin-left: 0.33rem;
+}
+.content_item_top h2{
+	margin-top: 0.3rem;
+	float: left;
+	font-size: 0.38rem;
+	font-weight: normal;
+	line-height: 0.6rem;
+	margin-left: 0.25rem;
+}
+.content_item_zhong{
+	width: 100%;
+	height: 3.04rem;
+}
+.content_item_zhong_left{
+	width: 1.2rem;
+	height: 100%;
+	float: left;
+}
+.yuan1{
+	margin-top: 1.2rem;
+}
+.content_item_zhong_right{
+	width: 9.6rem;
+	height: 100%;
+	float: right;
+	border-bottom: 0.01rem solid #dbdbdb;
+}
+.content_item_tu{
+	width: 1.98rem;
+	height: 6.5em;
+	float: left;
+}
+.content_item_tu h1{
+	font-weight: normal;
+	color: #fc807e;
+	font-size: 0.45rem;
+	margin-top: 0.1rem;
+}
+.content_item_wenzi{
+	width: 5.64rem;
+	height: 2.2rem;
+	float: left;
+	margin-left: 0.2rem;
+	margin-top: 0.2rem;
+}
+.cainixihuan_bottom_kuang{
+	width: 1.16rem;
+	height: 0.46rem;
+	border: 0.01rem solid #ff827c;
+	float: left;
+	margin-top: 0.08rem;
+}
+.cainixihuan_bottom_kuang h1{
+	font-size: 0.11rem;
+	color: #ff827c;
+	text-align: center;
+	line-height: 0.46rem;
+}
+.content_item_wenzi span{
+	font-size: 0.4rem;
+	font-weight: normal;
+	margin-left: 0.05rem;
+}
+.content_item_wenzi h2{
+	font-size: 0.32rem;
+	color: #989898;
+	margin-top: 0.6rem;
+	font-weight: normal;
+}
+.content_item_wright{
+	width: 1.32rem;
+	height: 0.78rem;
+	float: left;
+	margin-top: 0.25rem;
+}
+.content_item_wright h1{
+	font-weight: normal;
+	font-size: 0.26rem;
+}
+.content_item_wright h2{
+	font-weight: normal;
+	font-size: 0.26rem;
+	float: right;
+}
+.content_item_botom{
+	height: 1.77rem;
+	width: 100%;
+}
+.content_ritem{
+	width: 5.28rem;
+	height: 1.12rem;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.5rem;
+}
+.content_ritem h1{
+	font-size: 0.36rem;
+	float: right;
+	font-weight: normal;
+}
+.content_ritem h2{
+	font-size: 0.36rem;
+	float: right;
+	margin-top: 0.2rem;
+	font-weight: normal;
+}
+
+.wode_dubu{
+	width: 100%;
+	height: 1.49rem;
+	background-color: #fff;
+	border-top: 0.01rem solid #d3d3d3;
+	
+}
+
+#shop_all{
+	width: 100%;
+	height: 1.3rem;
+	line-height: 1.3rem;
+	background-color: rgba(255, 255, 255, .5);	
+}
+.shop_heji_w1{
+	display: block;
+	font-size: 0.34rem;
+	line-height: 0.34rem;
+	float: left;
+	margin-top: 0.59rem;
+	margin-left: 0.73rem;
+
+}
+.shop_heji_w2{
+	display: block;
+	font-size: 0.37rem;
+	color: #d76821;
+	float: left;
+	line-height: 0.37rem;
+	margin-top: 0.59rem;
+}
+.shop_heji_jies{
+	width: 3.69rem;
+	height: 1.3rem;
+	background-color: #e21536;
+	float: right;
+
+}
+.shop_heji_jz{
+	font-size: 0.46rem;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	line-height: 1.3rem;
+}

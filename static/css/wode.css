@@ -1,0 +1,265 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 562915 */
+  src: url('https://at.alicdn.com/t/font_562915_osuizz3uztkmlsor.eot');
+  src: url('https://at.alicdn.com/t/font_562915_osuizz3uztkmlsor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_562915_osuizz3uztkmlsor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_562915_osuizz3uztkmlsor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_562915_osuizz3uztkmlsor.svg#iconfont') format('svg');
+}
+body{
+	font-size: 12px;
+	background-color: #f0f0f0;
+}
+#wode{
+	width: 100vw;
+	height: 120vh;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #f6f6f6;
+}
+.wodezong{
+	width: 100%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 0;
+	bottom:1.49rem; 
+}
+.wode_top{
+	height: 7.82rem;
+	width: 100%;
+	background-color: #a2172e;
+	padding-top: 0.2rem;
+	position: relative;
+}
+.wode_shezhi{
+	width: 100%;
+	height: 1.2rem;
+	/* background-color: green; */
+
+}
+.head_left11{
+	font-family: 'iconfont';
+	color: #fff;
+	line-height: 1.2rem;
+	font-size: 0.6rem;
+	float: right;
+	margin-right: 0.45rem;
+}
+.wode_denglu{
+	width: 9.9rem;
+	height: 3.9rem;
+	background-color: #202020;
+	margin: 0 auto;
+	margin-top: 2rem;
+	border-radius: 20px;
+}
+.wode_denglu1{
+	width: 9.9rem;
+	height: 3.9rem;
+	background-color: #fff;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 2rem;
+	left: 0.45rem;
+}
+.wode_denglu1 img{
+	width: 1.96rem;
+	height: 1.96rem;
+	position: absolute;
+	top: -0.3rem;
+	left: 0.6rem;
+}
+.wode_denglu1 h1{
+	margin-left: 2.9rem;
+	line-height: 1.55rem;
+	font-size: 0.48rem;
+}
+.wode_shoucang{
+	width: 9rem;
+	height: 1.18rem;
+	margin-left: 0.9rem;
+}
+.wode_dengluitem{
+	width: 2rem;
+	height: 1.18rem;
+	/* background-color: pink; */
+	margin-top: 0.5rem;
+	float: left;
+	text-align: center;
+}
+.wode_dengluxian{
+	width: 0.03rem;
+	height: 0.6rem;
+	background-color: #f1f1f1;
+	float: left;
+	margin-top: 0.8rem;
+}
+.wode_dengluitem h2{
+	font-size: 0.39rem;
+	margin-top: 0.05rem;
+}
+.wode_dengluitem h3{
+	font-size: 0.35rem;
+	color: #898989;
+	font-weight: normal;
+}
+.wode_denglu h3{
+	margin-left: 0.5rem;
+	font-size: 0.38rem;
+	color: #fff;
+	position: absolute;
+	bottom: 1rem;
+}
+.wode_more h4{
+	font-size: 0.37rem;
+	margin-right: 0.5rem;
+	float: right;
+	color: #fff;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 1rem;
+}
+.wode_more h5{
+	font-size: 0.37rem;
+	margin-right: 0.05rem;
+	float: right;
+	color: #fff;
+	font-weight: normal;
+	position: absolute;
+	right: 1.3rem;
+	bottom: 1rem;
+}
+.wode_dingdan{
+	width: 100%;
+	height: 3.36rem;
+	background-color: #fff;
+}
+
+.wode_ding_top{
+	width: 10rem;
+	height: 1.2rem;
+	margin: 0 auto;
+	/* background-color: pink; */
+	border-bottom: 0.02rem solid #ededed;
+}
+.wode_ding_top h3{
+	font-size: 0.38rem;
+	float: left;
+	line-height: 1.2rem;
+}
+.wode_ding_top h4{
+	font-size: 0.37rem;
+	float: right;
+	line-height: 1.2rem;
+}
+.wode_ding_top h5{
+	font-size: 0.37rem;
+	float: right;
+	font-weight: normal;
+	line-height: 1.2rem;
+}
+.wode_ding_bottom{
+	height: 2.14rem;
+	width: 10rem;
+	/* background-color: yellow; */
+	margin: 0 auto;
+}
+.ding_bottom_item{
+	width: 2rem;
+	height: 2.14rem;
+	/* background-color: green; */
+	float: left;
+	text-align: center;
+}
+.ding_bottom_item h1{
+	font-family: 'iconfont';
+	margin-top: 0.47rem;
+	font-size: 0.54rem;
+	color: #ec1034;
+}
+.ding_bottom_item h2{
+	margin-top: 0.3rem;
+	font-size: 0.3rem;
+}
+.wode_fuwu{
+	width: 100%;
+	height: 9.63rem;
+	background-color: #fff;
+	margin-top: 0.3rem;
+}
+.wode_wodefuwu{
+	width: 10rem;
+	height: 2.79rem;
+	margin: 0 auto;
+	/* background-color: pink; */
+	border-bottom: 0.02rem solid #ededed;	
+}
+.wode_wodefuwu1{
+	width: 10rem;
+	height: 2.79rem;
+	margin: 0 auto;
+}
+.wode_yuan{
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 50%;
+	background-color: #f96e57;
+	margin-top: 0.4rem;
+	margin-left: 0.7rem;
+	text-align: center;
+}
+.wode_yuan2{
+	background-color: #e3bb4a;
+}
+.wode_yuan3{
+	background-color: #e3c146;
+}
+.wode_yuan4{
+	background-color: #f09f4d;
+}
+.wode_yuan5{
+	background-color: #f39e4d;
+}
+.wode_yuan6{
+	background-color: #e4bf4a;
+}
+.wode_yuan7{
+	background-color: #de3650;
+}
+.wode_yuan8{
+	background-color: #948ed4;
+}
+.wode_yuan9{
+	background-color: #fff;
+}
+.wode_yuan10{
+	background-color: #eabd48;
+}
+.wode_yuan11{
+	background-color: #ebbb4c;
+}
+.wode_yuan h2{
+	font-family: 'iconfont';
+	color: #fff;
+	line-height: 0.9rem;
+}
+.wode_yuan h3{
+	font-family: 'iconfont';
+	color: #b0c461;
+	line-height: 0.9rem;
+	font-size: 0.9rem;
+}
+.wodefuwu_item{
+	width: 2.5rem;
+	height: 2.79rem;
+	text-align: center;
+	float: left;
+}
+.wodefuwu_item h1{
+	font-size: 0.32rem;
+	margin-top: 0.21rem;
+	text-align: center;
+	font-weight: normal;
+}

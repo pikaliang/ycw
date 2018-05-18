@@ -1,0 +1,60 @@
+.wode_dubu {
+    width: 100%;
+    height: 1.49rem;
+    background-color: #fff;
+    border-top: 0.01rem solid #d3d3d3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.wode_dubu a {
+    width: 25%;
+    height: 1.49rem;
+    display: block;
+    float: left;
+}
+.wode_dubu_item {
+    width: 1.5rem;
+    height: 1.49rem;
+    /* background-color: yellow; */
+    /*margin-left: 0.54rem;*/
+    text-align: center;
+}
+
+.wode_dubu_item h1 {
+    font-family: 'iconfont';
+    font-size: 0.65rem;
+    margin-top: 0.23rem;
+    color: #504f4f;
+}
+
+#active h1{
+    color:#c8061e;
+}
+#active h2{
+    color:#c8061e;
+}
+
+.wode_dubu_item h2 {
+    font-size: 0.3rem;
+}
+
+.xinyonghu_bottom_item img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+}
+
+.xinyonghu_bottom_item h1 {
+    font-size: 0.42rem;
+}
+
+.xinyonghu_bottom_item h2 {
+    font-size: 0.22rem;
+    color: #b5b5b5;
+}
+
+.wode_dubu a {
+    color: black;
+}

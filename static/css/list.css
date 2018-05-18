@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 562915 */
+  src: url('https://at.alicdn.com/t/font_562915_ubgl55cbf45qm2t9.eot');
+  src: url('https://at.alicdn.com/t/font_562915_ubgl55cbf45qm2t9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_562915_ubgl55cbf45qm2t9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_562915_ubgl55cbf45qm2t9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_562915_ubgl55cbf45qm2t9.svg#iconfont') format('svg');
+}
+.top{
+	font-family: 'iconfont';
+	height: 1.55rem;
+	width: 100%;
+	/* background: yellow; */
+	border-bottom: 0.01rem solid #ccc;
+	overflow: hidden;
+}
+.top_left{
+	height: 0.96rem;
+	width: 0.96rem;
+	/* background: red; */
+	float: left;
+	margin-left: 0.36rem;
+	margin-top: 0.4rem;
+	line-height: 0.96rem;
+	font-size: 0.6rem;
+}
+.top_right{
+	height: 0.96rem;
+	width: 2rem;
+	/* background: red; */
+	float: right;
+	margin-right: 0.36rem;
+	margin-top: 0.4rem;
+	line-height: 0.94rem;
+	text-align: center;
+	font-size: 0.6rem;
+}
+.top_right a{
+	margin-left: 0.1rem;
+}
+.top span{
+	font-size: 0.4rem;
+	margin-left: 3rem;
+}
+.shaixuan{
+	width: 100%;
+	height: 0.83rem;
+	/* background: pink; */
+}
+.shaixuan_item{
+	width: 33%;
+	height: 0.83rem;
+	float: left;
+	line-height: 0.83rem;
+	text-align: center;
+	border-bottom: 0.01rem solid #ccc;
+}
+.shaixuan_item a{
+	font-size: 0.3rem;
+	color: #bfbfbf;
+}
+.content_zong{
+	width: 95%;
+	height: auto;
+	/* background: pink; */
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content_item{
+	color:#333;
+	width: 4.8rem;
+	height: 6.08rem;
+	/* background: green; */
+	float: left;
+	margin-right: 0.6rem;
+	border-bottom: 0.01rem solid #ccc;
+}
+.content_item:nth-child(2n){
+	margin-right: 0;
+}
+.content_item img{
+	width: 2.41rem;
+	height: 2.42rem;
+	margin: 0 auto;
+	margin-top: 0.7rem;
+}
+.content_wenzi{
+	width: 4.8rem;
+	height: 0.8rem;
+	/* background: yellow; */
+	margin: 0 auto;
+	margin-top: 0.62rem;
+	line-height: 0.4rem;
+	overflow: hidden;
+
+}
+.content_wenzi h1{
+	font-size: 12px;
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.content_wenzi h2{
+	font-size: 12px;
+	font-weight: normal;
+	color: #a4a4a4;
+	white-space: nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+.content_wenzi2 h1{
+	padding-top: 0.2rem;
+	color: #e11b4c;
+	line-height: 0.8rem;
+	font-size: 18px!important;
+}

@@ -1,0 +1,26 @@
+{include file="index/header.html"}
+<link rel="stylesheet" href="{CSS_PATH}/fenlei.css">
+<body>
+<main id="fenlei">
+    <!-- 搜索框开始 -->
+    <section id="search">
+        <h1>&#xe62f;</h1>
+        <input type="text" class="sousuo" placeholder="&#xe69b;飞利浦剃须刀">
+        <h1>&#xe6cd;</h1>
+    </section>
+    <!-- 搜索框结束 -->
+    <!-- 正文内容开始 -->
+    <section id="content">
+        <div class="content_left">
+            <div class="tuijian_wenzi">
+                {foreach $data $v}
+                <a href="" >
+                <img src="{$v['tthumb']}" alt="">
+                <h1>{$v['tname']}</h1>
+                </a>
+                {/foreach}
+            </div>
+        </div>
+    </section>
+</main>
+{include file="index/footer.html"}

@@ -1,0 +1,38 @@
+{include file="index/header.html"}
+<link rel="stylesheet" href="{CSS_PATH}/list.css">
+<body>
+<main id="xiangqing">
+    <div class="top" id="{$tid}">
+        <div class="top_left" onclick="history.back()">&lt;</div>
+    </div>
+    <div class="shaixuan">
+        <div class="shaixuan_item">
+            <a style="color:#e11b4c;" class="order">综合</a>
+        </div>
+        <div class="shaixuan_item">
+            <a class="price">价格</a>
+        </div>
+        <div class="shaixuan_item">
+            <a class="new">新品</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content_zong">
+            {foreach $data $v}
+            <a href="index.php?m=index&c=category&a=showcontent&gid={$v['gid']}" class="content_item">
+                <img src="{$v['gthumb']}" alt="">
+                <div class="content_wenzi">
+                    <h1>{$v['gname']}</h1>
+                    <h2>{$v['gdescription']}</h2>
+                </div>
+                <div class="content_wenzi content_wenzi2">
+                    <h1>￥{$v['gprice']}</h1>
+                </div>
+            </a>
+            {/foreach}
+        </div>
+    </div>
+</main>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/getlist.js"></script>
+{include file="index/footer.html"}
